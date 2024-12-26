@@ -1,0 +1,157 @@
+header{
+    
+    display: flex;
+    padding: 20px;
+    margin: 20;
+    text-align:center;
+    border:border-box;
+    justify-content: space-evenly;
+
+}
+.con{
+    border:1px solid black;
+    padding: 10px;
+    margin:20px;
+    text-align: left;
+    background-color: blue;
+    width: auto;
+    height:auto;
+    border-radius:10px;
+    
+}
+input{
+    width:400px;
+}
+.m3{
+    background-color: aquamarine;
+}
+.m4{
+    font-size: 25px;
+}
+
+.m5{
+    font-size: 30px;
+}
+.m6{
+    text-align: left;
+    font-size:30px;
+    padding:10px 10px 10px 10px;
+    margin: 10px;
+
+}
+.g{
+    align-content: center;
+    justify-content: center;
+    color:rgb(255, 155, 127);
+}
+.container {
+    display: flex;
+    justify-content: space-between; /* Space between the boxes */
+    padding: 10px;
+}
+.box {
+    width: 23%; /* Make sure the total width is under 100% */
+    padding: 20px;
+    background-color: #e95e5e;
+    border: 2px solid #ccc;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+    color:yellow;
+    border-radius: 30px;
+}
+.f9 {
+    margin: 0;
+    font-size: 14px;
+    color:white;
+    
+}
+footer {
+    margin-top: 20px ;
+    text-align: center;
+    font-size: 14px;
+    color:white;
+    background-color: black;
+
+}
+.contact-container {
+    background-color: black; /* White background for the contact box */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styling for phone number and email */
+.contact-info {
+    font-size: 18px;
+    margin: 10px 0;
+    color:white;
+}
+
+/* Styling for email link */
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+.submit-btn {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+}
+.submit-btn:hover {
+    background-color: blue; /* Darker green on hover */
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Box styles */
+.box1 {
+    width: 30%; /* Each box takes 30% of the row */
+    background-color: #4CAF50; /* Box background color */
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Box shadow */
+    margin: 10px;
+}
+.image-container {
+    position: relative;
+    width: 1200px;
+}
+
+.image-container img {
+    width: 1200px;
+    height: 500px;
+}
+
+.image-container .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    font-size: 26px;
+    font-weight: bold;
+    /*background-color: rgba(0, 0, 0, 0.5); Optional: To make the text more readable */
+    padding: 10px;
+}
+
+
+
+
+
+
+
